@@ -1,0 +1,217 @@
+name: PKS2023/24
+pcap_name: trace-26.pcap
+filter_name: ARP
+complete_coms: 
+?
+number_comm: 1
+!
+frame_number: 41
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 42
+len_frame_pcap: 60
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:16:47:02:24:40
+dst_mac: 00:10:18:33:cf:44
+hexaframe: 00 10 18 33 cf 44 00 16 47 02 24 40 08 06 00 01 08 00 06 04 00 02 00 16 47 02 24 40 0a 14 1e fe 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ether_type: ARP
+arp_opcode: REPLY
+src_ip: 10.20.30.254
+dst_ip: 10.20.30.1
+*
+?
+number_comm: 1
+!
+frame_number: 95
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+?
+number_comm: 2
+!
+frame_number: 94
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 00 00 00 00 00 00 00 00 00 00 0a 14 1e 01
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 0.0.0.0
+dst_ip: 10.20.30.1
+!
+frame_number: 96
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 00 00 00 00 00 00 00 00 00 00 0a 14 1e 01
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 0.0.0.0
+dst_ip: 10.20.30.1
+!
+frame_number: 107
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 00 00 00 00 00 00 00 00 00 00 0a 14 1e 01
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 0.0.0.0
+dst_ip: 10.20.30.1
+!
+frame_number: 110
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e 01
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.1
+?
+number_comm: 3
+!
+frame_number: 97
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 108
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 112
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 114
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 125
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 135
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 148
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 149
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 158
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254
+!
+frame_number: 166
+len_frame_pcap: 42
+len_frame_medium: 64
+frame_type: ETHERNET II
+src_mac: 00:10:18:33:cf:44
+dst_mac: ff:ff:ff:ff:ff:ff
+hexaframe: ff ff ff ff ff ff 00 10 18 33 cf 44 08 06 00 01 08 00 06 04 00 01 00 10 18 33 cf 44 0a 14 1e 01 00 00 00 00 00 00 0a 14 1e fe
+ether_type: ARP
+arp_opcode: REQUEST
+src_ip: 10.20.30.1
+dst_ip: 10.20.30.254

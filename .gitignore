@@ -1,0 +1,4 @@
+git x64/
+*.vcxproj
+*.filters
+*.user
