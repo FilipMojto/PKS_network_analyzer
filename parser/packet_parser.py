@@ -32,6 +32,7 @@ def configure_argparse():
     parser.add_argument('-a', '--append', action='store_true', help='''Rather than parsing a new header with new packets it only appends new packets.')                       
                                                                     If this is selected, the input file should only contain packet dictionaries.''')
     parser.add_argument('-p', '--protocol', nargs='?', action=CheckFilterAction, help="User can specify a certain protocol as a filter.")
+    parser.add_argument('-c', '--count', action='store_true', help="User can specify a certain protocol as a filter.")
     args = parser.parse_args()
 
 #Some helpful functions
@@ -60,11 +61,19 @@ def set_header(data):
             'ipv4_senders': [],
             'max_send_packets_by': []
         }, yaml)
+    elif not data and args.count:
+        save_data({
+            'name': '',
+            'pcap_name': '',
+            'packets': [],
+            'packet_counts' : ''
+        }, yaml)
     elif not data and args.protocol in ["TCP", "ARP", "ICMP"]:
         save_data({
             'name': '',
             'pcap_name': '',
             'filter_name': '',
+            'counts': '',
             'complete_comms': [],
             'partial_comms': []
         }, yaml)
@@ -98,8 +107,11 @@ def parse_header_data():
     header_len = 3
 
     if args.protocol:
-        header_len += 1
+        header_len += 2
+
         data['filter_name'] = file.readline().split(KEY_VALUE_DELIMITER)[1].strip()
+        file.readline()
+        data['counts'] = int(file.readline().split(KEY_VALUE_DELIMITER)[1].strip())
 
 
     file.close()
@@ -141,7 +153,7 @@ def insert_packet(file_input, dic, key):
 
     
     line = file_input.readline()
-    while line and line.strip() != PACKET_DELIMITER and line.strip() not in ['%', '?', '*']:
+    while line and line.strip() != PACKET_DELIMITER and line.strip() not in ['%', '?', '*', '$']:
         splits = line.split(KEY_VALUE_DELIMITER)
 
         if splits[0].strip() in ['src_port', 'dst_port', 'icmp_id', 'icmp_seq', 'length',
@@ -162,6 +174,9 @@ def insert_packet(file_input, dic, key):
         return 3
     elif(line.strip() == '%'):
         return 4
+    elif(line.strip() == '$'):
+        print("f")
+        return 5
     return 0
 
 def insert_ipv4_rec(fileInput):
@@ -264,6 +279,11 @@ def process_input(file_input):
             result = 1
             while(result == 1):
                 result =  insert_partial_comm(file_input)
+
+            #print(f'Result: {file_input.readline()}')
+
+            #data['packet_counts'] = int(file_input.readline().split(KEY_VALUE_DELIMITER)[1].strip())
+
     elif start == '*':
         result = 1
         while(result == 1):
@@ -283,6 +303,10 @@ def process_input(file_input):
 
     elif(start == PACKET_DELIMITER):
         while(insert_packet(file_input, data, 'packets') != 4): pass
+        
+        if args.count:
+            data['packet_counts'] = int(file_input.readline().split(KEY_VALUE_DELIMITER)[1].strip())
+            return
 
         insert_ipv4_rec(file_input)
 

@@ -1,46 +1,46 @@
 ﻿  main.cpp
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(756,36): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(756,20): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(774,36): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(774,20): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(776,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(778,57): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(778,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(847,17): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(867,17): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(889,41): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(889,19): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(927,63): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(927,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(992,37): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(992,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(996,51): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(996,24): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1015,39): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1015,19): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1047,37): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1047,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1134,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1134,18): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1225,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1225,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1237,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1237,18): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1266,14): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1277,19): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1302,19): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1310,43): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1310,20): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1323,62): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1323,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1327,21): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1333,75): warning C4267: '=': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1364,70): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1364,31): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1367,82): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1367,27): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1376,36): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1376,20): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1382,19): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
-C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(1203): warning C4715: 'process_tcp_req': not all control paths return a value
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2613,36): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2613,20): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2631,36): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2631,20): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2633,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2635,57): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2635,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2704,17): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2724,17): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2746,41): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2746,19): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2784,63): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2784,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2849,37): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2849,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2853,51): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2853,24): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2872,39): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2872,19): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2904,37): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2904,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2991,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(2991,18): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3082,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3082,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3094,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3094,18): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3123,14): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3134,19): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3159,19): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3167,43): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3167,20): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3180,62): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3180,25): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3184,21): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3190,75): warning C4267: '=': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3221,70): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3221,31): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3224,82): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3224,27): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3233,36): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3233,20): warning C4267: 'initializing': conversion from 'size_t' to 'const u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3239,19): warning C4267: 'initializing': conversion from 'size_t' to 'u_int', possible loss of data
+C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\PKS_network_analyzer\main.cpp(3060): warning C4715: 'process_tcp_req': not all control paths return a value
   PKS_network_analyzer.vcxproj -> C:\Users\fmojt\Documents\Software Projects\C++\PKS_network_analyzer\x64\Debug\PKS_network_analyzer.exe
